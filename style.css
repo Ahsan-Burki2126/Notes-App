@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #9191FF, #ADD6FF) no-repeat center / cover;
+    padding: 5%;
+}
+
+.container{
+    width: 500px;
+    padding: 3%;
+}
+
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 2.1rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.container h1 img{
+    width: 80px;
+}
+
+#createBtn{
+    background-image: linear-gradient(#a077e7,#7a49cd);
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 40px;
+    font-size: 14px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+#createBtn img{
+    width: 25px;
+}
+
+.notes-container{
+    width: 100%; /*500 px*/ 
+}
+
+.para{
+    position: relative;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    min-height: 120px;
+    padding: 3%;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+
+.delbtn{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 30px;
+    cursor: pointer;
+}
