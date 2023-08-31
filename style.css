@@ -71,3 +71,26 @@ body{
     width: 30px;
     cursor: pointer;
 }
+
+
+/* media queries to make it responsive  */
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 5%;
+    }
+    
+    .container h1 {
+        font-size: 1.8rem;
+    }
+    
+    .para {
+        font-size: 12px;
+        max-width: 100%;
+    }
+    
+    .delbtn {
+        bottom: 10px;
+        right: 10px;
+    }
+}
