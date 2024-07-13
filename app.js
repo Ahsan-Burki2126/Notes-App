@@ -37,5 +37,5 @@ createBtn.addEventListener("click", () => {
         updateData();
     });
 
-    updateData(); // Save to local storage when new note is created
+   // updateData(); // Save to local storage when new note is created
 });
