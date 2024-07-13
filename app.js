@@ -18,9 +18,9 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-function updateData() {
-    localStorage.setItem("notes", notesContainer.innerHTML);
-}
+// function updateData() {
+//     localStorage.setItem("notes", notesContainer.innerHTML);
+// }
 
 createBtn.addEventListener("click", () => {
     let para = document.createElement("p");
